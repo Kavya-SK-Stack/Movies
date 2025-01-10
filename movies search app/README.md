@@ -1,8 +1,29 @@
-# React + Vite
+# Movies Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### This is my revamped project with pagination now activated. I have fixed the pagination issue. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+A movie search application built with React, Tailwind CSS, and the OMDB API.
+
+
+## HomePage 
+- Popular movies are displayed statically to showcase the homepage.
+- They won't link to the Movie Detail Page.
+- Users can search for their favorite movies and view details for a particular movie.
+
+## Features
+- Search for movies, series, or episodes.
+- View movie details with a poster, plot, and ratings.
+- Dropdown filter for content type.
+- Pagination support for large datasets.
+
+## Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Add your OMDB API key in `src/services/api.js`.
+4. Run locally: `npm run dev`.
+
+## Deployment
+- Deploy to Netlify using `npm run build`.
+
